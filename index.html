@@ -1,9 +1,13 @@
 <!doctype html>
 <html>
     <head>
-        <title>amiba</title>
+        <title>Jeminn</title>
         <meta charset="utf-8">
-        <meta name="author" content="Amiba">
+        <meta name="author" content="Jeminn">
+        <meta name="description" content="Jeminn's Homepage">
+        <link rel="icon" href="https://github.com/cusualjeminn/cusualjeminn.github.io/blob/main/untitled.ico">
+        <base href="https://github.com/cusualjeminn/cusualjeminn.github.io">
+        <!--中国人能飞-->
         <style type="text/css">
         ul{
             margin: 0;
@@ -12,8 +16,8 @@
             justify-content: center;
             padding: 0;
             overflow: hidden;
-            background-image: url("https://github.com/cusualjeminn/cusualjeminn.github.io/untitled.png");
-            background-color:palegreen;
+            background-image: url("https://github.com/cusualjeminn/cusualjeminn.github.io/blob/main/untitled.png");
+            background-color:gray;
             background-repeat: no-repeat;
             background-position: left;
             background-size: 50%;
@@ -28,46 +32,102 @@
              }
         li a {
             display: block;
-            color: rgb(255, 237, 237);
+            color: rgb(0, 0, 0);
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
         }
         
         li a:hover {
-            background-color: darkgrey;
+            background-color: lightgray;
         }
 
         .text-center{transition:all .1s;}
         </style>
+        <!-- 新 Bootstrap 核心 CSS 文件 -->
+        <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+        <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+        
+        <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+        <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+            .card {
+                background-color: #f8f9fa;
+                border: 1px solid #dee2e6;
+                border-radius: 0.25rem;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                margin: 20px auto;
+                padding: 20px;
+                max-width: 600px;
+            }
+            .card-title {
+                font-size: 5rem;
+                margin-bottom: 10px;
+            }
+            .card-body {
+                font-size: 1.5rem;
+                color: #495057;
+            }
+            .card-text {
+                margin-bottom: 15px;
+            }
+        </style>
     </head>
     <body>
-        <div style="font-family: Segoe Print; font-size: 14px;">
-            <nav class="navbar navbar-dark bg-light">
-                
+        <div style="font-size: 14px;">
+            <!--导航栏-->
+            <nav class="navbar navbar-dark bg-light text-center">
                 <ul class="navbar-nav mr-auto" >
-                    <li class="nav-item active"><a href="#">Home</a></li>
-                    <li class="nav-item"><a href="#">About</a></li>
-                    <li class="nav-item"><a href="mailto:1521301316@qq.com">Contact</a></li>
-                    <li class="nav-item"><a href="https://github.com/cusualjeminn" target="_blank">MakerOnGitHub</a></li>
+                    <li class="nav-item active"><a href="#">主页</a></li>
+                    <li class="nav-item"><a href="#">关于</a></li>
+                    <li class="nav-item"><a href="mailto:1521301316@qq.com">文章</a></li>
+                    <li class="nav-item"><a href="https://github.com/cusualjeminn" target="_blank">我的GitHub</a></li>
                 </ul>
             </nav>
-            <h1>welcome to Amiba's website</h1>
+            <h1 class="text-center">欢迎来到jeminn的小窝</h1>
             <div class="card text-center" style="width: 80%; margin: auto;">
-                <h4 class="card-title">Amiba</h5>
+                <h3 class="card-title">关于我</h3>
                 <div class="card-body">
-                    <p class="card-text">Amiba is a Chinese word meaning "amoeba" and is derived from the English word "amoeba".</p>
-                    <a href="mailto:1521301316@qq.com" class="btn btn-primary">email at jeminn to learn more</a>
+                    <p class="card-text">
+                        一个坐标CQ的普通学生，热爱计算机与化学。曾是一名 OIer，但是由于竞赛成绩不佳，现已退役。
+                        <br>
+                        平时可能不怎么活跃，但我会尽力在这里分享我的学习和生活经历。
+                    </p>
                 </div>
             </div>
-                <p>Amiba is derived from the English word <a href="https://cn.bing.com/search?pglt=675&q=amoeba&cvid=7ec5d98419794b9e991c7cac003f5b11&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQg3MjQzajBqMagCALACAA&FORM=ANNTA1&PC=CNNDDB" target="_blank">"amoeba"</a>, a language that has emerged in modern times.</p>
-                <h3>our team</h3>
-                <p>We're not a team, but we have a few members:<br>Jeminn and V&u</p>
-
-                <h3>join us</h3>
-
-                <p>We're always looking for new members, so if you're interested, please email <code>@<a href="mailto:1521301316@qq.com">Jeminn</a></code>!</p>
+            <br>
+            <div class="card text-center" style="width: 80%; margin: auto;">
+                <h3 class="card-title">联系方式&社交帐号</h3>
+                <div class="card-body">
+                    <p class="card-text">
+                        邮箱:<a href="mailto:1521301316@qq.com" class="btn btn-primary">1521301316@qq.com</a>
+                        <br><br>
+                        GitHub:<a href="https://github.com/cusualjeminn" target="_blank" class="btn btn-primary">cusualjeminn</a>
+                        <br><br>
+                        Bilibili:<a href="https://space.bilibili.com/3493111988750795" target="_blank" class="btn btn-primary">jeminn_jmc</a>
+                        <br><br>
+                        luogu:<a href="https://www.luogu.com.cn/user/1208841" target="_blank" class="btn btn-primary">SCTMEv</a>
+                        <br><br>
+                        知乎:<a href="https://www.zhihu.com/people/96-77-69-28-10" target="_blank" class="btn btn-primary">瑞雪兆丰年</a>
+                        <br><br>
+                        QQ:1521301316
+                    </p>
+                </div>
             </div>
+            <br>
+            <div class="card text-center" style="width: 80%; margin: auto;">
+                <h3 class="card-title">友情链接</h3>
+                <div class="card-body">
+                    <p class="card-text">
+                        暂无 
+                    </p>
+                </div>
+            </div>
+            <footer class="text-center" style="margin-top: 20px;">
+                <p>&copy; jeminn  制作简陋，如有建议，请联系我。</p>
+            </footer>
         </div>
     </body>
 </html>
