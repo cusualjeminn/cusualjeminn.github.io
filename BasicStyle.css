@@ -19,8 +19,9 @@ li {
 }
 nav-item :active{
     background-color: lightyellow ;
+    color :gray;
     font-size :larger;
-        }
+}
 li a {
     display: block;
     color: lightyellow;
