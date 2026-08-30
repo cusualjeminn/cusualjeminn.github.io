@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="author" content="Jeminn">
         <meta name="description" content="Jeminn's Homepage">
-        <link rel="icon" href="https://github.com/cusualjeminn/cusualjeminn.github.io/favicon.ico">
+        <link rel="icon" href="https://github.com/cusualjeminn/cusualjeminn.github.io/blob/main/favicon.ico">
         <base href="https://cusualjeminn.github.io">
         <!--中国人能飞-->
         <link rel="stylesheet" href="/BasicStyle.css">
@@ -19,29 +19,30 @@
         <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <!--导航栏-->
-            <nav class="navbar navbar-dark bg-light text-center">
-                <ul class="navbar-nav mr-auto header" >
+        <div style="font-size: 14px;">
+            <!--导航栏-->
+            <nav class="navbar navbar-fixed-top" role="navigation">
+                <ul class="navbar-nav header" style="margin-bottom:5px">
                     <li class="nav-item"><a href="">主页</a></li>
                     <li class="nav-item"><a href="/about">关于</a></li>
-                    <li class="nav-item active"><a href="/articles">文章</a></li>
+                    <li class="nav-item" id="nav-active"><a href="/articles">文章</a></li>
                     <li class="nav-item"><a href="https://github.com/cusualjeminn" target="_blank">我的GitHub</a></li>
                 </ul>
             </nav>
 
             <!--内容-->
             
-            <div class="leftcolumn card text-center" style="width: 80%; margin: auto;">
+            <div class="leftcolumn card text-center">
                 <div class="card-title">文章列表</div>
                 <div class="card-body">
                     <ul class="card-text" style="background-color:rgb(203, 203, 255)">
                         <li><a href="/articles/1.html" style="color:dimgray">预览1<br></a></li>
                         <li><a href="/articles/2.html" style="color:green">预览2<br></a></li>
-                        <li><a href="/articles/atc1.md" style="color:blueviolet">再见往昔敬仰的那样一道疤痕——OI回忆</a><br></li>
+                        <li><a href="/articles/atc1/" style="color:blueviolet">再见往昔敬仰的那样一道疤痕——OI回忆</a><br></li>
                     </ul>
                 </div>
             </div>
-            <div class="rightcolumn card text-center" style="width: 80%; margin: auto;">
+            <div class="rightcolumn card text-center">
                 <div class="card-title">文章说明</div>
                 <div class="card-body">
                     <p class="card-text">
@@ -51,5 +52,6 @@
                     </p>
                 </div>
             </div>
+        </div>
     </body>
 </html>
