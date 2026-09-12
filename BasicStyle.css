@@ -9,14 +9,15 @@
     top:0;
     background-color:rgb(38, 38, 41);
     font-size:large;
+    
 }
 li{float:left;}
-#nav-active{
+.header .nav-active{
     background-color:lightyellow ;
     color:rgb(38, 38, 41);
     font-size:larger;
 }
-li a{
+.header a{
     display:block;
     color:lightyellow;
     text-align:center;
@@ -24,7 +25,7 @@ li a{
     text-decoration:none;
 }
 
-li a:hover{
+.header a:hover{
     background-color:lightgray;
     color:darkslategray;
 }
@@ -50,21 +51,22 @@ li a:hover{
 }
 .card-text{margin-bottom:15px;}
 
-.leftcolumn{   
+.leftcolumn{
   float:left;
-  width:75%;
-  max-width:max-content;
+  width:65%;
+  height:100%;
+  margin-left:5%;
 }
 .rightcolumn{
-  float:left;
-  width:25%;
+  float:right;
+  width:20%;
   background-color:#f1f1f1;
-  padding-left:20px;
-  max-width:max-content;
+  margin-right:5%;
 }
-@media screen and (max-width:400px){
-  .topnav a{
+@media screen and (max-width:750px){
+  .leftcolumn, .rightcolumn{
     float:none;
     width:100%;
+    border-top:10px;
   }
 }
