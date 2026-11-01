@@ -28,6 +28,7 @@ li{float:left;}
 .header a:hover{
     background-color:lightgray;
     color:darkslategray;
+    text-decoration:none;
 }
 
 .text-center{transition:position .1s;}
@@ -70,3 +71,29 @@ li{float:left;}
     border-top:10px;
   }
 }
+.article-list{
+    display:flow-root;
+    transition:all 0.3s linear;
+    height:fit-content;
+}
+.article-list li{
+    display:block;
+    list-style-type:none;
+    margin:10px;
+    width:90%;
+    border:1px solid rgb(203, 203, 255);
+    border-radius:1px;
+    box-shadow:0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.article-list li:hover{
+    transform:scale(1.03);
+}
+.article-list a:hover{
+    text-decoration-line:none;
+}
+.article-list .lifeRec{color:dimgray;}
+.article-list .studyNote{color:green;}
+.article-list .memoir{color:darkgoldenrod;}
+.article-list .jotting{color:hotpink;}
+.article-list .literature{color:royalblue;}
+.article-list .other{color:darkslategray;}
